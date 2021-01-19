@@ -107,14 +107,16 @@ main .search_description h2
 {
     margin-top: 1.7em;
 }
-figure
+.filters figure
 {
     display: flex;
     border: 2px solid #F2F2F2;
     border-radius: 2em;
     padding-right: 1em;
+    margin-right: 0em;
+    
 }
-figure:hover
+.filters figure:hover
 {
     transform: scale(1.2);
     transition: transform .2s;
@@ -127,9 +129,131 @@ figure:hover
     padding: 0.8em;
     font-size: 95%;
 }
-figcaption
+.filters figcaption
 {
     margin: auto;
     margin-left: 0.5em;
     font-weight: 800;
+}
+/*--------------info nombre logements--------------*/
+.info h4
+{
+    font-weight: 400;
+    margin-left: 1em;
+}
+.info figure
+{
+    display: flex;
+    margin-left: auto;
+}
+.info .fas
+{
+    color: #0065FC;
+    border: 4px solid #F2F2F2;
+    border-radius: 4em;
+    padding: 1em;
+    margin-top: auto;
+}
+section
+{
+    display: flex;
+}
+/*--------------containers item left--------------*/
+#hebergements
+{
+    margin-top: 2em;
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    border-radius: 1em;
+}
+#hebergements article
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 3em;
+
+}
+#hebergements figure
+{
+    background-color: white;
+    border-radius: 2em;
+    margin-left: 0em ;
+    padding: 0.3em;
+    height: auto;
+    box-shadow: 1px 1px 10px #c9c9c9;
+}
+#hebergements img
+{
+    width: 20em;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    height: 10em;
+}
+#hebergements h1
+{
+    margin-top: 2em;
+    margin-left: 1.5em;
+}
+#hebergements h2
+{
+    margin-left: 1.5em;
+}
+#hebergements figcaption
+{
+    margin-left: 1em;
+    margin-bottom: 1em;
+    margin-top: -0.5em;
+}
+.fa-star
+{
+    color: #0065FC;
+}
+.grey
+{
+    color: #F2F2F2;
+}
+/*--------------containers item right--------------*/
+#populaires 
+{
+    margin-top: 2em;
+    margin-left: 1em;
+    display: flex;
+    flex-direction: column;
+    background-color: #F2F2F2;
+    border-radius: 1em;
+}
+#populaires article
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 3em;
+
+}
+#populaires figure
+{
+    background-color: white;
+    border-radius: 2em;
+    margin-left: 0em ;
+    padding: 0.3em;
+    height: auto;
+    box-shadow: 1px 1px 10px #c9c9c9;
+}
+#populaires img
+{
+    width: 20em;
+    border-top-left-radius: 2em;
+    border-top-right-radius: 2em;
+    height: 10em;
+}
+#populaires h1
+{
+    margin-top: 2em;
+    margin-left: 1.5em;
+}
+#populaires figcaption
+{
+    margin-left: 1em;
+    margin-bottom: 1em;
+    margin-top: -0.5em;
 }
