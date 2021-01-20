@@ -114,7 +114,6 @@ main .search_description h2
     border: 2px solid #F2F2F2;
     border-radius: 2em;
     padding-right: 1em;
-    margin-right: 0em;
     
 }
 .filters figure:hover
@@ -127,33 +126,35 @@ main .search_description h2
     background-color: #DEEBFF;
     color: #0065FC;
     border-radius: 2em;
-    padding: 0.8em;
-    font-size: 95%;
+    padding: 10px;
 }
 .filters figcaption
 {
-    margin: auto;
-    margin-left: 0.5em;
+    margin-top: 9px;
+    margin-left: 10px;
     font-weight: 800;
 }
 /*--------------info nombre logements--------------*/
-.info h4
+.info figcaption 
 {
     font-weight: 400;
     margin-left: 1em;
+    margin-top: 0.2em;
 }
-.info figure
+.info
 {
     display: flex;
-    margin-left: auto;
 }
 .info .fas
 {
     color: #0065FC;
-    border: 4px solid #F2F2F2;
-    border-radius: 50%;
-    padding: 1em;
-    margin-top: auto;
+    border: 2px solid #F2F2F2;
+    border-radius: 100%;
+    padding-right: 0.75em;
+    padding-left: 0.75em;
+    padding-top: 0.40em;
+    padding-bottom: 0.40em;
+    font-size: 75%;
 }
 section
 {
@@ -168,6 +169,13 @@ section
     background-color: #F2F2F2;
     border-radius: 1em;
 }
+#hebergements #vignettes
+{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
 #hebergements article
 {
     display: flex;
@@ -224,12 +232,10 @@ section
     background-color: #F2F2F2;
     border-radius: 1em;
 }
-#populaires article
+#populaires #vignettes
 {
     display: flex;
-    flex-wrap: wrap;
-    margin-left: 3em;
-
+    flex-direction: column;
 }
 #populaires figure
 {
