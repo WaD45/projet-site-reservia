@@ -168,36 +168,33 @@ section
     flex-direction: column;
     background-color: #F2F2F2;
     border-radius: 1em;
+    inline-size: 950px;
+    padding-right: 0.5em;
 }
 #hebergements #vignettes
 {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-}
-
-#hebergements article
-{
-    display: flex;
-    flex-wrap: wrap;
-    margin-left: 3em;
-
+    margin-left: 2em;
 }
 #hebergements figure
 {
+    display: flex;
+    flex-direction: column;
     background-color: white;
-    border-radius: 2em;
+    border-radius: 20px;
     margin-left: 0em ;
     padding: 0.3em;
-    height: auto;
     box-shadow: 1px 1px 10px #c9c9c9;
 }
 #hebergements img
 {
-    width: 20em;
-    border-top-left-radius: 2em;
-    border-top-right-radius: 2em;
-    height: 10em;
+    
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 15.6em;
+    height: 7.5em;
 }
 #hebergements h1
 {
@@ -210,9 +207,8 @@ section
 }
 #hebergements figcaption
 {
-    margin-left: 1em;
-    margin-bottom: 1em;
-    margin-top: -0.5em;
+    margin-top: -1em;
+    margin-left: 0.5em;
 }
 .fa-star
 {
@@ -223,7 +219,7 @@ section
     color: #F2F2F2;
 }
 /*--------------containers item right--------------*/
-#populaires 
+aside
 {
     margin-top: 2em;
     margin-left: 1em;
@@ -231,36 +227,51 @@ section
     flex-direction: column;
     background-color: #F2F2F2;
     border-radius: 1em;
+    width: 25em;
 }
-#populaires #vignettes
+#popchart
 {
     display: flex;
-    flex-direction: column;
+    flex-direction: row;
+    margin-left: 2em;
+    margin-top: 1em;
+    justify-content: space-between;
+    margin-right: 2em;
+
 }
-#populaires figure
+aside h1
 {
+    font-size: x-large;
+}
+#popchart .fas
+{
+    margin-top: 1em;
+}
+
+aside figure
+{
+    display: flex;
+    flex-direction: row;
     background-color: white;
-    border-radius: 2em;
-    margin-left: 0em ;
+    border-radius: 20px;
+    margin-left: 2em ;
     padding: 0.3em;
-    height: auto;
     box-shadow: 1px 1px 10px #c9c9c9;
 }
-#populaires img
+aside img
 {
-    width: 20em;
-    border-top-left-radius: 2em;
-    border-top-right-radius: 2em;
-    height: 10em;
+    
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    width: 8em;
+    height: 9em;
 }
-#populaires h1
+aside figcaption
 {
-    margin-top: 2em;
-    margin-left: 1.5em;
+    margin-top: -1em;
+    margin-left: 0.5em;
+    padding: 10px;
 }
-#populaires figcaption
+aside figcaption .fas
 {
-    margin-left: 1em;
-    margin-bottom: 1em;
-    margin-top: -0.5em;
 }
