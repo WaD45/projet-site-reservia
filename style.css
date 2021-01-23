@@ -227,7 +227,7 @@ aside
     flex-direction: column;
     background-color: #F2F2F2;
     border-radius: 1em;
-    width: 25em;
+    width: 450px;
 }
 #popchart
 {
@@ -254,17 +254,18 @@ aside figure
     flex-direction: row;
     background-color: white;
     border-radius: 20px;
-    margin-left: 2em ;
+    margin-top: 1em;
+    margin-bottom: 2em;
+    width: 350px;
+    height: 150px;
     padding: 0.3em;
     box-shadow: 1px 1px 10px #c9c9c9;
 }
 aside img
 {
-    
     border-top-left-radius: 20px;
     border-bottom-left-radius: 20px;
-    width: 8em;
-    height: 9em;
+    width: 45%;
 }
 aside figcaption
 {
@@ -272,6 +273,44 @@ aside figcaption
     margin-left: 0.5em;
     padding: 10px;
 }
-aside figcaption .fas
+/*--------------activites--------------*/
+#activites h1
 {
+    font-weight: 600;
+    margin-top: 2em;
+    margin-left: 0.5em;
+}
+#activites #vignettes
+{
+    display: flex;
+}
+#activites figure
+{
+    margin-left: 0.5em;
+    border-radius: 20px;
+    box-shadow: 1px 1px 10px #c9c9c9;
+    width: 305px;
+    height: 450px;
+}
+#activites figcaption
+{
+    font-weight: 600;
+    margin-left: 1.5em;
+    margin-top: 1em;
+}
+#activites img
+{
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    width: 100%;
+    height: 90%;
+}
+#double figure
+{
+    height: 215px;
+    flex-direction: column;
+}
+#double figure img
+{
+    height: 80%;
 }
