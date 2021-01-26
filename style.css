@@ -190,7 +190,7 @@ a
     border-radius: 20px;
     margin-left: 0em;
     width: 256px;
-    height: 200px;
+    height: fit-content;
     box-shadow: 1px 1px 10px #c9c9c9;
 }
 #hebergements img
@@ -198,10 +198,11 @@ a
     
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    width: 96%;
-    height: 65%;
     margin-left: 5px;
     margin-top: 5px;
+    margin-right: 5px;
+    object-fit: cover;
+    max-height: 130px;
 }
 #hebergements h1
 {
