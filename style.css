@@ -1,7 +1,9 @@
 body
 {
     font-family: 'Raleway', sans-serif;
-    margin-left: 2em;
+    margin-left: auto;
+    margin-right: auto;
+    width: 95%;
 }
 header
 {    
@@ -165,6 +167,10 @@ a
 {
     text-decoration: none;
 }
+#hebergements a
+{
+    color: #000;
+}
 #hebergements
 {
     margin-top: 2em;
@@ -172,37 +178,32 @@ a
     flex-direction: column;
     background-color: #F2F2F2;
     border-radius: 1em;
-    inline-size: 950px;
     padding-right: 0.5em;
 }
 #hebergements #vignettes
 {
     display: flex;
-    flex-direction: row;
     flex-wrap: wrap;
-    margin-left: 2em;
+    justify-content: space-around;
 }
 #hebergements figure
 {
-    display: flex;
-    flex-direction: column;
     background-color: white;
     border-radius: 20px;
-    margin-left: 0em;
-    width: 256px;
-    height: fit-content;
+    flex-basis: 30%;
     box-shadow: 1px 1px 10px #c9c9c9;
+    padding: 5px;
+    margin:0;
+    margin-bottom: 1rem;
 }
 #hebergements img
 {
     
     border-top-left-radius: 20px;
     border-top-right-radius: 20px;
-    margin-left: 5px;
-    margin-top: 5px;
-    margin-right: 5px;
     object-fit: cover;
     max-height: 130px;
+    width: 100%;
 }
 #hebergements h1
 {
@@ -239,7 +240,7 @@ aside
     flex-direction: column;
     background-color: #F2F2F2;
     border-radius: 1em;
-    width: 450px;
+    width: 30%;
 }
 #popchart
 {
