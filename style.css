@@ -9,6 +9,7 @@ header
 {    
     display: flex; 
     justify-content: space-between;
+    margin-top: 3rem;
 }
 /*--------------Menu header--------------*/
 nav ul
@@ -33,13 +34,12 @@ nav li a
 nav a:hover
 {
     border-top: 2px solid #0065FC;
-    padding-top: 20px;
+    padding-top: 60px;
     color: #0065FC;
 }
 main
 {
-    margin: 0em;
-    padding-top: 1.5em;    
+    padding-top: 1.5rem;    
 }
 nav a
 {
@@ -50,27 +50,27 @@ nav a
 main .search_description h1
 {    
     font-weight: 800;
-    font-size: large;
+    font-size: 140%;
 }
 main .search_description h2
 {    
     font-weight: 400;
-    font-size: small;
-    margin-top: 0.2em;
+    font-size: 105%;
+    margin-top: 0.2rem;
 }
 .search_bar
 {    
     display: flex;
-    margin-top: 1.1em;    
+    margin-top: 1.5rem;    
 }
 .background_logo_search
 {
     display: flex;
     background-color: #F2F2F2;
-    height: 2.5em;   
-    width: 2.5em;
-    border-top-left-radius: 1em;
-    border-bottom-left-radius: 1em;
+    height: 3rem;   
+    width: 3rem;
+    border-top-left-radius: 1rem;
+    border-bottom-left-radius: 1rem;
 }
 .fa-map-marker-alt
 {
@@ -80,42 +80,47 @@ main .search_description h2
 {
     border: 1px solid #F2F2F2;
     font-weight: 800;
-    padding-left: 1em;
+    font-size: 120%;
+    padding-left: 1rem;
+    font-family: 'raleway';
 }
 .rechercher
 {      
     background-color: #0065FC;
     color: white;
     font-weight: 600;    
-    border-top-right-radius: 0.7em;
-    border-bottom-right-radius: 0.7em;  
-    height: 2.5em;  
-    width: 6.5em;
+    border-top-right-radius: 0.7rem;
+    border-bottom-right-radius: 0.7rem;  
+    height: 3rem;  
+    width: 8em;
 }
 .boutton
 {
     display: flex;
-    padding: 0.4em ;  
-    font-size: small;  
-    margin-top: 0.5em;  
-    margin-left: 0.7em;  
+    padding: 1rem ;  
+    font-size: 100%;
 }
 /*--------------containers et items filtres--------------*/
 .filters
 {    
     display: flex;
-    margin-top: 1.5em;
+    margin-top: 1rem;
+    margin-left: 0.5rem;    
 }
 .filters h4
 {
-    margin-top: 1.7em;
+    margin-top: 1.7rem;
+    font-size: 110%;
+    font-weight: 800;
 }
 .filters figure
 {
     display: flex;
     border: 2px solid #F2F2F2;
-    border-radius: 2em;
-    padding-right: 1em;
+    border-radius: 2rem;
+    padding-right: 1rem;
+    margin-left: 1rem;
+    margin-right: 0.5rem;
     
 }
 .filters figure:hover
@@ -127,21 +132,25 @@ main .search_description h2
 {
     background-color: #DEEBFF;
     color: #0065FC;
-    border-radius: 2em;
-    padding: 10px;
+    border-radius: 2rem;
+    padding: 15px;
+    margin-left: -0.1rem;
 }
 .filters figcaption
 {
-    margin-top: 9px;
-    margin-left: 10px;
+    margin: auto;
+    padding-left: 1rem;
+    padding-right: 0.5rem;
     font-weight: 800;
+    font-size: 110%;
 }
 /*--------------info nombre logements--------------*/
 .info figcaption 
 {
     font-weight: 400;
-    margin-left: 1em;
-    margin-top: 0.2em;
+    margin-left: 1rem;
+    margin-top: 1rem;
+    font-size: 95%;
 }
 .info
 {
@@ -152,11 +161,12 @@ main .search_description h2
     color: #0065FC;
     border: 2px solid #F2F2F2;
     border-radius: 100%;
-    padding-right: 0.75em;
-    padding-left: 0.75em;
-    padding-top: 0.40em;
-    padding-bottom: 0.40em;
-    font-size: 75%;
+    padding-right: 0.45rem;
+    padding-left: 0.5rem;
+    padding-top: 0.25rem;
+    padding-bottom: 0.30rem;
+    font-size: 70%;
+    margin-top: 0.8rem;
 }
 section
 {
@@ -173,18 +183,22 @@ a
 }
 #hebergements
 {
-    margin-top: 2em;
+    margin-top: 2rem;
     display: flex;
     flex-direction: column;
     background-color: #F2F2F2;
-    border-radius: 1em;
-    padding-right: 0.5em;
+    border-radius: 1rem;
+    padding-right: 0.5rem;
+    width: 990px;
 }
 #hebergements #vignettes
 {
     display: flex;
     flex-wrap: wrap;
-    justify-content: space-around;
+    padding-left: 1.6rem;
+    padding-right: 1rem;
+    margin-top: 0.5rem;
+
 }
 #hebergements figure
 {
@@ -193,8 +207,8 @@ a
     flex-basis: 30%;
     box-shadow: 1px 1px 10px #c9c9c9;
     padding: 5px;
-    margin:0;
-    margin-bottom: 1rem;
+    margin: auto;
+    margin-bottom: 2rem;
 }
 #hebergements img
 {
@@ -207,8 +221,9 @@ a
 }
 #hebergements h1
 {
-    margin-top: 2em;
-    margin-left: 1.5em;
+    margin-top: 2rem;
+    margin-left: 2rem;
+    font-size: 135%;
 }
 #hebergements h2
 {
