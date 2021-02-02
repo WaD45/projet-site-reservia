@@ -457,7 +457,18 @@ main
     padding-right: 20rem;
     margin-left: 1rem;
 }
-
-
+.info figcaption
+{
+    margin-left: 0rem;
+    font-size: 110%;
+    max-width: 23rem;
+}
+.info .fas
+{
+    
+    border-radius: 100%;
+    font-size: 90%;
+    margin: 1rem;
+}
 
     }
