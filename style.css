@@ -76,6 +76,10 @@ main .search_description h2
 {
     margin: auto;
 }
+.fa-search
+{
+    display: none;
+}
 #site-search
 {
     border: 1px solid #F2F2F2;
@@ -361,3 +365,99 @@ footer
     margin-right: 12em;
     margin-top: 2em;
 }
+
+/* Smartphones (portrait and landscape) ----------- */
+
+/* Smartphones (portrait) ----------- */
+@media only screen and (max-width : 600px) 
+{
+
+header
+{    
+    margin-top: 0rem;
+    margin-left: 1rem;
+}
+#linehover
+{
+    position: absolute;
+    top: 4rem;
+    left: 1rem;
+}
+#linehover2
+{
+    position: absolute;
+    top: 4rem;
+    left: 16rem;
+}
+#inscription
+{
+    position: absolute;
+    left: 20rem;
+
+}
+nav li a
+{
+    color:black;
+    padding-left: 15px;
+    padding-right: 15px;
+    
+}
+nav a:hover
+{
+    border-top: 2px solid #0065FC;
+    padding-top: 0px;
+    color: #0065FC;
+}
+main
+{
+    padding-top: 4rem;    
+}
+.search_description
+{
+    font-size: small;
+    max-width: 250px;
+    margin-left: 1rem;
+}
+.search_bar
+{   
+    display: flex;
+    margin-top: 1.5rem;    
+}
+.background_logo_search
+{
+    width: 3rem;
+}
+#site-search
+{
+    font-size: 100%;
+}
+.rechercher
+{      
+    border-radius: 0.7rem;
+    width: 3em;
+}
+.fa-search
+{
+    display: flex;
+    margin-left: 1rem;
+    margin-top: 1rem;
+}
+.boutton
+{
+    display: none;
+}
+.filters
+{
+    display: flex;
+    flex-wrap: wrap;
+    margin-left: 0rem;
+}
+.filters h4
+{
+    padding-right: 20rem;
+    margin-left: 1rem;
+}
+
+
+
+    }
