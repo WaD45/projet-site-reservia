@@ -470,5 +470,13 @@ main
     font-size: 90%;
     margin: 1rem;
 }
+section
+{
+    flex-direction: column-reverse;
+}
+aside
+{
+    width: 90%;
+}
 
     }
