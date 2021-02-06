@@ -14,6 +14,7 @@ header
 /*--------------Menu header--------------*/
 nav ul
 {        
+    display: flex;
     font-weight: 600;
     color: #0065FC ;
     text-decoration: none;
@@ -22,7 +23,6 @@ nav ul
 nav li
 {
     margin: 10px;
-    display: inline;
 }
 nav li a
 {
@@ -371,12 +371,40 @@ footer
 /* Smartphones (portrait) ----------- */
 @media only screen and (max-width : 600px) 
 {
-
+*
+{
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
 header
 {    
+    border: 1px solid black;
     margin-top: 0rem;
     margin-left: 1rem;
 }
+header nav
+{
+    display: flex;
+}
+nav li:nth-child(1)
+{
+    order: 2;
+    margin-top: 100px;
+    margin-left: -70px;
+    
+}
+nav li:nth-child(2)
+{
+    order: 3;
+}
+nav li:nth-child(3)
+{
+    order: 1;
+    margin-top: -10px;
+    margin-left: 80px;
+    position: absolute;
+}
+/*
 #linehover
 {
     position: absolute;
@@ -388,24 +416,22 @@ header
     position: absolute;
     top: 4rem;
     left: 16rem;
-}
-#inscription
+}*/
+/* #inscription 
 {
     position: absolute;
     left: 20rem;
-
-}
+} */
 nav li a
 {
     color:black;
-    padding-left: 15px;
-    padding-right: 15px;
+    padding-left: 0px;
+    padding-right: 0px;
     
 }
 nav a:hover
 {
-    border-top: 2px solid #0065FC;
-    padding-top: 0px;
+    border-bottom: 2px solid #0065FC;
     color: #0065FC;
 }
 main
