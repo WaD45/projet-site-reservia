@@ -72,6 +72,7 @@ flex-wrap: wrap;
 header img
 {
 padding-left: 20px;
+
 }
 nav ul
 {
@@ -295,6 +296,7 @@ aside img
 border-top-left-radius: 10px;
 border-bottom-left-radius: 10px;
 width: 40%;
+object-fit: cover;
 }
 aside figcaption p
 {
@@ -348,6 +350,7 @@ border-top-left-radius: 10px;
 border-top-right-radius: 10px;
 width: 100%;
 height: 60%;
+object-fit: cover;
 }
 #hebergements h1
 {
@@ -411,6 +414,7 @@ border-top-left-radius: 10px;
 border-top-right-radius: 10px;
 width: 100%;
 height: 70%;
+object-fit: cover;
 }
 #double figure
 {
