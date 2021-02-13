@@ -1,66 +1,69 @@
 <!DOCTYPE html>
 <html lang="fr">
-    <head>
-        <title>Reservia</title>
-        <meta charset="utf-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <link rel="stylesheet" href="style.css">
-        <link rel="preconnect" href="https://fonts.gstatic.com">
-        <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">    
-        <meta name="viewport" content="width=device-width, initial-scale=1">   
-        <script src="https://kit.fontawesome.com/e3e07a676e.js" crossorigin="anonymous"></script> 
-    </head>
-    <body>        
-        <header>               
-            <img src="./images/logo/Reservia.svg">
-                <nav>
-                    <ul>
-                        <li><a href="#hebergements">Hébergement</a></li>
-                        <li><a href="#activites">Activités</a></li>
-                        <li>S'inscrire</li>
-                    </ul>
-                </nav>
-        </header>
-        <main>
-            <!--containers et items de la barre de recherche-->                   
-            <div class="search_description">
-                <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
-                <h2>En plein centre ville ou en pleine nature</h2>    
-            </div> 
-            <div class="search_bar">
-                <div class="background_logo_search">
-                <i class="fas fa-map-marker-alt"></i>                  
-                </div>
-                <input type="search" id="site-search" name="trouvezvotrehebergement" aria-label="Search place">   
-                <div class="rechercher"><div class="boutton">Rechercher</div><i class="fas fa-search"></i></div>
-            </div> 
-            <div class="filters">
-                <h4>Filtres</h4>
-                <figure>
-                    <i class="fas fa-money-bill-wave"></i>
-                    <figcaption>Économique</figcaption>
-                </figure>
-                <figure>
-                    <i class="fas fa-child"></i>
-                    <figcaption>Familial</figcaption>
-                </figure>
-                <figure>
-                    <i class="fas fa-heart"></i>
-                    <figcaption>Romantique</figcaption>
-                </figure>
-                <figure>
-                    <i class="fas fa-dog"></i>
-                    <figcaption>Animaux autorisés</figcaption>
-                </figure>
+
+<head>
+    <title>Reservia</title>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="https://kit.fontawesome.com/e3e07a676e.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <header>
+        <img src="./images/logo/Reservia.svg">
+        <nav>
+            <ul>
+                <li><a href="#hebergements">Hébergement</a></li>
+                <li><a href="#activites">Activités</a></li>
+                <li>S'inscrire</li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <!--containers et items de la barre de recherche-->
+        <div class="search_description">
+            <h1>Trouvez votre hébergement pour des vacances de rêve</h1>
+            <h2>En plein centre ville ou en pleine nature</h2>
+        </div>
+        <div class="search_bar">
+            <div class="background_logo_search">
+                <i class="fas fa-map-marker-alt"></i>
             </div>
-            <!--containers et items du sous texte des filtres-->                         
-            <div class="info">
-                    <i class="fas fa-info"></i>
-                    <figcaption>Plus de 500 logements sont disponibles dans cette ville</figcaption>
-            </div>    
-            <!--containers et items vignettes logements-->  
+            <input type="search" id="site-search" name="trouvezvotrehebergement" aria-label="Search place">
+            <div class="rechercher">
+                <div class="boutton">Rechercher</div><i class="fas fa-search"></i></div>
+        </div>
+        <div class="filters">
+            <h4>Filtres</h4>
+            <figure>
+                <i class="fas fa-money-bill-wave"></i>
+                <figcaption>Économique</figcaption>
+            </figure>
+            <figure>
+                <i class="fas fa-child"></i>
+                <figcaption>Familial</figcaption>
+            </figure>
+            <figure>
+                <i class="fas fa-heart"></i>
+                <figcaption>Romantique</figcaption>
+            </figure>
+            <figure>
+                <i class="fas fa-dog"></i>
+                <figcaption>Animaux autorisés</figcaption>
+            </figure>
+        </div>
+        <!--containers et items du sous texte des filtres-->
+        <div class="info">
+            <i class="fas fa-info"></i>
+            <figcaption>Plus de 500 logements sont disponibles dans cette ville</figcaption>
+        </div>
+        <!--containers et items vignettes logements-->
         <section>
-            <div id="hebergements">   
+            <div id="hebergements">
                 <h1>Hébergements à Marseille</h1>
                 <div id="vignettes">
                     <figure>
@@ -74,7 +77,7 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star grey"></i>
                         </figcaption>
-                    </figure> 
+                    </figure>
                     <figure>
                         <img src="./images/hebergements/4_small/fred-kleber-gTbaxaVLvsg-unsplash.jpg">
                         <figcaption>
@@ -85,8 +88,8 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
-                        </figcaption> 
-                    </figure>   
+                        </figcaption>
+                    </figure>
                     <figure>
                         <img src="./images/hebergements/4_small/reisetopia-B8WIgxA_PFU-unsplash.jpg">
                         <figcaption>
@@ -97,7 +100,7 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star grey"></i>
-                        </figcaption> 
+                        </figcaption>
                     </figure>
                     <figure>
                         <img src="./images/hebergements/4_small/annie-spratt-Eg1qcIitAuA-unsplash.jpg">
@@ -109,7 +112,7 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star grey"></i>
-                        </figcaption> 
+                        </figcaption>
                     </figure>
                     <figure>
                         <img src="./images/hebergements/4_small/nicate-lee-kT-ZyaiwBe0-unsplash.jpg">
@@ -121,7 +124,7 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star grey"></i>
-                        </figcaption> 
+                        </figcaption>
                     </figure>
                     <figure>
                         <img src="./images/hebergements/4_small/febrian-zakaria-M6S1WvfW68A-unsplash.jpg">
@@ -133,9 +136,9 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
-                        </figcaption> 
+                        </figcaption>
                     </figure>
-                </div>    
+                </div>
                 <h2>Afficher plus</h2>
             </div>
             <aside>
@@ -154,8 +157,8 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
-                        </figcaption> 
-                    </figure> 
+                        </figcaption>
+                    </figure>
                     <figure>
                         <img src="./images/hebergements/4_small/aw-creative-VGs8z60yT2c-unsplash.jpg">
                         <figcaption>
@@ -166,8 +169,8 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star grey"></i>
-                        </figcaption> 
-                    </figure> 
+                        </figcaption>
+                    </figure>
                     <figure>
                         <img src="./images/hebergements/4_small/febrian-zakaria-sjvU0THccQA-unsplash.jpg">
                         <figcaption>
@@ -178,62 +181,67 @@
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star"></i>
                             <i class="fas fa-star grey"></i>
-                        </figcaption> 
-                    </figure>  
-                </div>                
-            </aside>    
+                        </figcaption>
+                    </figure>
+                </div>
+            </aside>
         </section>
-            <div id="activites">   
-                <h1>Activités à Marseille</h1>
-                <div id="vignettes">
+        <div id="activites">
+            <h1>Activités à Marseille</h1>
+            <div id="vignettes">
+                <figure>
+                    <img src="./images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg">
+                    <figcaption>Vieux Port</figcaption>
+                </figure>
+                <div id="double">
                     <figure>
-                        <img src="./images/activites/4_small/reno-laithienne-QUgJhdY5Fyk-unsplash.jpg">
-                        <figcaption>Vieux Port</figcaption>
+                        <img src="./images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg">
+                        <figcaption>Fort de Pomègues</figcaption>
                     </figure>
-                    <div id="double">
-                        <figure>
-                            <img src="./images/activites/4_small/paul-hermann-QFTrLdQIRhI-unsplash.jpg">
-                            <figcaption>Fort de Pomègues</figcaption>
-                        </figure>
-                        <figure>
-                            <img src="./images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg">
-                            <figcaption>Îles du Frioul</figcaption>
-                        </figure>
-                    </div>
                     <figure>
-                        <img src="./images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg">
-                        <figcaption>Parc National des Calanques</figcaption>
+                        <img src="./images/activites/4_small/kevin-hikari-rV_Qd1l-VXg-unsplash.jpg">
+                        <figcaption>Îles du Frioul</figcaption>
                     </figure>
-                    <div id="double">
-                        <figure>
-                            <img src="./images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg">
-                            <figcaption>Notre-Dame-de-la-Garde</figcaption>
-                        </figure>
-                        <figure>
-                            <img src="./images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg">
-                            <figcaption>Parc Longchamp</figcaption>
-                        </figure>
-                    </div>
-            </div> 
-        </main>
-        <footer>               
-            <div class="container_footer">
+                </div>
                 <figure>
-                    <h2>A propos</h2>
-                    <figcaption>Fonctionnement du site</br></br>Conditions générales de vente</br></br>Données et confidentialité
-                    </figcaption>
+                    <img src="./images/activites/4_small/kilyan-sockalingum-NR8-cBCN3aI-unsplash.jpg">
+                    <figcaption>Parc National des Calanques</figcaption>
                 </figure>
-                <figure>
-                    <h2>Nos hébergements</h2>
-                    <figcaption>Charte qualité</br></br>Soumettre votre hôtel
-                    </figcaption>
-                </figure>
-                <figure>
-                    <h2>Assistance</h2>
-                    <figcaption>Centre d'aide</br></br>Nous contacter
-                    </figcaption>
-                </figure>
+                <div id="double">
+                    <figure>
+                        <img src="./images/activites/4_small/florian-wehde-xW9e8gdotxI-unsplash.jpg">
+                        <figcaption>Notre-Dame-de-la-Garde</figcaption>
+                    </figure>
+                    <figure>
+                        <img src="./images/activites/4_small/lena-paulin-wH2-EJoDcV0-unsplash.jpg">
+                        <figcaption>Parc Longchamp</figcaption>
+                    </figure>
+                </div>
             </div>
-        </footer>   
-    </body>        
-</html>    
+    </main>
+    <footer>
+        <div class="container_footer">
+            <figure>
+                <h2>A propos</h2>
+                <figcaption>Fonctionnement du site</br>
+                    </br>Conditions générales de vente</br>
+                    </br>Données et confidentialité
+                </figcaption>
+            </figure>
+            <figure>
+                <h2>Nos hébergements</h2>
+                <figcaption>Charte qualité</br>
+                    </br>Soumettre votre hôtel
+                </figcaption>
+            </figure>
+            <figure>
+                <h2>Assistance</h2>
+                <figcaption>Centre d'aide</br>
+                    </br>Nous contacter
+                </figcaption>
+            </figure>
+        </div>
+    </footer>
+</body>
+
+</html>
