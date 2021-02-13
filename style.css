@@ -678,13 +678,15 @@ font-size: small;
     #hebergements #vignettes
     {
     margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
     }
     #hebergements figure
     {
-    flex-direction: row;
     background-color: white;
     border-radius: 10px;
-    width: 40%;
+    width: 39%;
+    height: 250px;
     box-shadow: 1px 1px 5px #c9c9c9;
     }
     #hebergements img
@@ -693,6 +695,8 @@ font-size: small;
     border-top-right-radius: 10px;
     width: 100%;
     height: 60%;
+
+  object-fit: cover;
     }
     #hebergements h1
     {
@@ -702,19 +706,21 @@ font-size: small;
     }
     #hebergements h2
     {
-    font-size: large;
-    margin-left: 5px;
+    font-size: medium;
+    margin-left: 20px;
+    margin-bottom: 20px;
     }
     #hebergements figcaption
     {
-    margin-top: -20px;
-    margin-left: 0.5em;
+        margin-top: -5px;
     font-size: 90%;
+    text-align: center;
     }
     #hebergements p
     {
     font-size: small;
     margin-top: -15px;
+    text-align: center;
     }
     .fa-star
     {
@@ -728,84 +734,114 @@ font-size: small;
     aside
     {
     margin-top: 2em;
-    margin-left: 3px;
     background-color: #F2F2F2;
-    width: 98%;
+    width: 100%;
     }
     #popchart
     {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin-left: 5px;
-    margin-right: 10px;
+    text-align: center;
     }
     aside h1
     {
     font-size: x-large;
+    margin-left: 30%;
     }
     #popchart .fas
     {
     margin-top: 30px;
+    margin-left: 5%;
     }
     aside #vignettes
     {
-    margin-left: -35px;
+    display: flex;
+    flex-wrap: wrap;
+    width: 80%;
+    margin-left: 10%;
     }
     aside figure
     {
     display: flex;
-    flex-direction: row;
+    flex-direction: column;
     background-color: white;
     border-radius: 10px;
-    margin-top: 0px;
-    margin-bottom: 1em;
-    width: 86%;
-    height: 125px;
-    padding: 0.3em;
+    width: 90%;
+    height: 250px;
     box-shadow: 1px 1px 10px #c9c9c9;
     }
     aside img
     {
-    border-top-left-radius: 10px;
-    border-bottom-left-radius: 10px;
-    width: 40%;
+    width: 100%;
+    height: 80%;
+
+  object-fit: cover;
+    }
+    aside figcaption h3
+    {
+margin-left: 15px;
+font-size: medium;
     }
     aside figcaption p
     {
-    margin-top: -10px;
+        margin-left: 10px;
+        margin-right: 20px;
+        font-size: small;
+        margin-top: 19px;
     }
     aside figcaption .fa-star
     {
-    margin-top: 15px;
+        margin-top: 15px;
     }
+    aside figcaption br
+    {
+        display: none;
+    }
+
     
     aside figcaption
     {
-    margin-top: -15px;
-    margin-left: 0.5em;
-    font-size: 90%;
+        display: flex;
+        justify-content: center;
     }
     /*--------------activites--------------*/
     #activites
     {
     width: 100%;
-    margin-left: -5px;
+    margin-left: 5%;
     }
     #activites h1
     {
     font-weight: 600;
     font-size: x-large;
     margin-top: 1em;
-    margin-left: 10px;
+    margin-left: 35%;
+    }
+    #activites #vignettes
+    {
+
+    margin-top: 30px;
+    display: flex;
+    flex-wrap: wrap;
     }
     #activites figure
     {
     margin-left: 10px;
     border-radius: 10px;
     box-shadow: 1px 1px 10px #c9c9c9;
-    width: 96%;
+    width: 39%;
     height: 175px;
+    }
+    #double figure
+    {
+        width: 100%;
+    }
+    #activites #double
+    {
+        width: 91%;
+        display: flex;
+        flex-direction: row;
+
     }
     #activites figcaption
     {
@@ -815,10 +851,11 @@ font-size: small;
     }
     #activites img
     {
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
     width: 100%;
     height: 70%;
+    
+
+  object-fit: cover;
     }
     #double figure
     {
@@ -828,6 +865,22 @@ font-size: small;
     #double figure img
     {
     height: 70%;
+    }
+    #vignettes figure:nth-child(1)
+    {
+        order: 3;
+    }
+    #vignettes #double:nth-child(2)
+    {
+        order: 1;
+    }
+    #vignettes figure:nth-child(3)
+    {
+        order: 4;
+    }
+    #vignettes #double:nth-child(4)
+    {
+        order: 2;
     }
     /*--------------footer--------------*/
     footer
