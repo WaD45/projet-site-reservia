@@ -430,10 +430,6 @@ nav a:focus {
 /*--------------media queries tablets--------------*/
 
 @media only screen and (min-width: 768px) and (max-width: 991px) {
-    * {
-        box-sizing: border-box;
-        overflow-x: hidden;
-    }
     body {
         width: 100%;
     }
@@ -538,9 +534,9 @@ nav a:focus {
         background-color: #0065FC;
         color: white;
         font-weight: 600;
-        border-radius: 0.9rem;
+        border-top-right-radius: 0.9rem;
+        border-bottom-right-radius: 0.9rem;
         height: 50px;
-        width: 20%;
         padding: 1rem;
     }
     .rechercher .fa-search {
@@ -551,13 +547,13 @@ nav a:focus {
     }
     /*--------------containers et items filtres--------------*/
     .filters h4 {
-        margin-left: 15px;
+        margin-left: 23px;
         font-size: 110%;
         font-weight: 800;
     }
     .filters figure {
         display: inline-block;
-        margin-left: 13px;
+        margin-left: 20px;
         border: 2px solid #F2F2F2;
         border-radius: 2rem;
         height: 50px;
@@ -568,7 +564,31 @@ nav a:focus {
     .filters figure:hover {
         transform: scale(1.2);
     }
-    .filters .fas {
+    .filters .fa-money-bill-wave {
+        background-color: #DEEBFF;
+        color: #0065FC;
+        border-radius: 100%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 13px;
+        padding-right: 13px;
+    }
+    .filters .fa-child {
+        background-color: #DEEBFF;
+        color: #0065FC;
+        border-radius: 100%;
+        padding-top: 15px;
+        padding-bottom: 15px;
+        padding-left: 17px;
+        padding-right: 17px;
+    }
+    .filters .fa-heart {
+        background-color: #DEEBFF;
+        color: #0065FC;
+        border-radius: 100%;
+        padding: 15px;
+    }
+    .filters .fa-dog {
         background-color: #DEEBFF;
         color: #0065FC;
         border-radius: 100%;
@@ -583,6 +603,7 @@ nav a:focus {
     }
     /*--------------info nombre logements--------------*/
     .info {
+        margin-left: 20px;
         margin-top: 20px;
     }
     .info figcaption {
@@ -607,8 +628,7 @@ nav a:focus {
     }
     /*--------------section hebergements et populaires--------------*/
     section {
-        display: flex;
-        flex-direction: column;
+        margin-top: 20px;
     }
     /*--------------hebergements a marseille--------------*/
     a {
@@ -619,7 +639,6 @@ nav a:focus {
     }
     #hebergements {
         margin-top: 20px;
-        margin-left: 3px;
         width: 100%;
         background-color: #F2F2F2;
         border-radius: 10px;
@@ -632,7 +651,7 @@ nav a:focus {
     #hebergements figure {
         background-color: white;
         border-radius: 10px;
-        width: 39%;
+        width: 300px;
         height: 250px;
         box-shadow: 1px 1px 5px #c9c9c9;
     }
@@ -650,8 +669,8 @@ nav a:focus {
     }
     #hebergements h2 {
         font-size: medium;
-        margin-left: 20px;
-        margin-bottom: 20px;
+        margin-left: 40px;
+        margin-bottom: 30px;
     }
     #hebergements figcaption {
         margin-top: -5px;
@@ -732,31 +751,32 @@ nav a:focus {
     /*--------------activites--------------*/
     #activites {
         width: 100%;
-        margin-left: 5%;
     }
     #activites h1 {
         font-weight: 600;
         font-size: x-large;
-        margin-top: 1em;
-        margin-left: 35%;
+        margin-top: 30px;
+        text-align: center;
     }
     #activites #vignettes {
         margin-top: 30px;
+        margin-left: 60px;
         display: flex;
         flex-wrap: wrap;
+        flex-direction: row;
     }
     #activites figure {
-        margin-left: 10px;
+        margin-left: 0px;
         border-radius: 10px;
         box-shadow: 1px 1px 10px #c9c9c9;
-        width: 39%;
+        width: 300px;
         height: 175px;
     }
     #double figure {
-        width: 100%;
+        width: 300px;
     }
     #activites #double {
-        width: 91%;
+        width: 100%;
         display: flex;
         flex-direction: row;
     }
@@ -777,22 +797,23 @@ nav a:focus {
     #double figure img {
         height: 70%;
     }
-    #vignettes figure:nth-child(1) {
+    #activites #vignettes figure:nth-child(1) {
         order: 3;
     }
-    #vignettes #double:nth-child(2) {
+    #activites #vignettes #double:nth-child(2) {
         order: 1;
     }
-    #vignettes figure:nth-child(3) {
+    #activites #vignettes figure:nth-child(3) {
         order: 4;
     }
-    #vignettes #double:nth-child(4) {
+    #activites #vignettes #double:nth-child(4) {
         order: 2;
     }
     /*--------------footer--------------*/
     footer {
         margin-top: 30px;
         background-color: #F2F2F2;
+        padding-bottom: 30px;
     }
     .container_footer {
         display: flex;
