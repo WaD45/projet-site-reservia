@@ -244,10 +244,8 @@ nav a:focus {
         width: 80%;
         margin-top: -25px;
         font-size: 95%;
-        display: absolute;
     }
     .info .fas {
-        display: absolute;
         color: #0065FC;
         border: 2px solid #F2F2F2;
         font-size: 70%;
@@ -308,9 +306,6 @@ nav a:focus {
     }
     aside figcaption p {
         margin-top: -10px;
-    }
-    aside figcaption .fa-star {
-        margin-top: px;
     }
     aside figcaption {
         margin-top: 0px;
@@ -520,7 +515,7 @@ nav a:focus {
         margin: auto;
     }
     #site-search {
-        order: 1px solid #F2F2F2;
+        border: 1px solid #F2F2F2;
         font-weight: 800;
         font-size: 100%;
         padding-left: 1rem;
@@ -608,12 +603,10 @@ nav a:focus {
     .info figcaption {
         font-weight: 400;
         margin-left: 30px;
-        margin-top: -25px;
+        margin-top: -20px;
         font-size: 95%;
-        display: absolute;
     }
     .info .fas {
-        display: absolute;
         color: #0065FC;
         border: 2px solid #F2F2F2;
         font-size: 70%;
@@ -967,10 +960,8 @@ nav a:focus {
         margin-left: 35px;
         margin-top: -20px;
         font-size: 100%;
-        display: absolute;
     }
     .info .fas {
-        display: absolute;
         color: #0065FC;
         border: 2px solid #F2F2F2;
         font-size: 70%;
@@ -1328,10 +1319,8 @@ nav a:focus {
         margin-left: 90px;
         margin-top: -50px;
         font-size: xx-large;
-        display: absolute;
     }
     .info .fas {
-        display: absolute;
         color: #0065FC;
         border: 2px solid #F2F2F2;
         font-size: xx-large;
