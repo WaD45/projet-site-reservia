@@ -269,7 +269,6 @@ nav a:focus {
     aside {
         margin-top: 2em;
         background-color: #F2F2F2;
-        width: 100%;
         padding-top: 10px;
         padding-bottom: 20px;
     }
@@ -290,33 +289,33 @@ nav a:focus {
     aside #vignettes {
         margin-left: -27px;
     }
-    aside figure {
+    aside figure a {
         display: flex;
         flex-direction: row;
         background-color: white;
         border-radius: 10px;
         margin-top: 0px;
+        margin-left: 15px;
         margin-bottom: 1em;
-        width: 86%;
         height: 125px;
-        padding: 0.3em;
         box-shadow: 1px 1px 10px #c9c9c9;
     }
     aside img {
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
         width: 40%;
+        height: 100%;
         object-fit: cover;
     }
     aside figcaption p {
         margin-top: -10px;
     }
     aside figcaption .fa-star {
-        margin-top: 15px;
+        margin-top: px;
     }
     aside figcaption {
-        margin-top: -15px;
-        margin-left: 0.5em;
+        margin-top: 0px;
+        margin-left: 15px;
         font-size: 90%;
     }
     /*--------------hebergements a marseille--------------*/
@@ -339,7 +338,8 @@ nav a:focus {
         border-radius: 10px;
         margin-top: 0px;
         margin-bottom: 20px;
-        width: 86%;
+        margin-left: 50px;
+        width: 80%;
         height: 180px;
         box-shadow: 1px 1px 5px #c9c9c9;
         padding-bottom: 5px;
