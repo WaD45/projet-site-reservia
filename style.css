@@ -835,7 +835,7 @@ nav a:focus {
 
 /*--------------media queries desktop--------------*/
 
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 992px) and (max-width: 2000px) {
     body {
         font-family: 'Raleway', sans-serif;
         margin-left: auto;
@@ -984,7 +984,7 @@ nav a:focus {
     section {
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-evenly;
     }
     /*--------------hebergements a marseille--------------*/
     a {
@@ -996,9 +996,11 @@ nav a:focus {
     #hebergements {
         margin-top: 25px;
         width: 65%;
+        max-width: 60vw;
         background-color: #F2F2F2;
         border-radius: 10px;
-        padding-right: 30px;
+        padding-left: 1vh;
+        margin-left: -5vh;
     }
     #hebergements #vignettes {
         margin-top: 20px;
@@ -1009,10 +1011,12 @@ nav a:focus {
     #hebergements figure {
         background-color: white;
         border-radius: 10px;
-        width: 27%;
-        height: 200px;
+        width: 17vw;
+        justify-content: center;
+        height: 20vh;
         box-shadow: 1px 1px 5px #c9c9c9;
         margin-right: 0;
+        margin-left: 3vh;
     }
     #hebergements img {
         border-top-left-radius: 10px;
@@ -1020,53 +1024,39 @@ nav a:focus {
         width: 100%;
         height: 60%;
         object-fit: cover;
+        padding: 4px;
     }
     #hebergements h1 {
-        font-size: x-large;
+        font-size: large;
         text-align: left;
         margin-left: 20px;
         margin-top: 30px;
     }
     #hebergements h2 {
-        font-size: large;
+        font-size: medium;
         text-align: left;
         margin-left: 20px;
-        margin-bottom: 20px;
+        margin-top: 20px;
     }
     #hebergements figcaption {
         margin-top: -15px;
         margin-left: 10px;
-        font-size: 100%;
     }
     #hebergements h4 {
-        margin-bottom: -13px;
+        font-size: small;
+        margin-bottom: -2px;
     }
     #hebergements p {
+        font-size: x-small;
         margin-bottom: 5px;
     }
     .fa-star {
         color: #0065FC;
+        font-size: x-small;
     }
     .grey {
         color: #F2F2F2;
-    }
-    #hebergements #vignettes figure:nth-child(1) {
-        order: 1;
-    }
-    #hebergements #vignettes figure:nth-child(2) {
-        order: 2;
-    }
-    #hebergements #vignettes figure:nth-child(3) {
-        order: 3;
-    }
-    #hebergements #vignettes figure:nth-child(4) {
-        order: 4;
-    }
-    #hebergements #vignettes figure:nth-child(5) {
-        order: 5;
-    }
-    #hebergements #vignettes figure:nth-child(6) {
-        order: 6;
+        font-size: x-small;
     }
     /*--------------les plus populaires--------------*/
     aside {
@@ -1079,121 +1069,97 @@ nav a:focus {
         display: flex;
         flex-direction: row;
         justify-content: space-between;
-        margin-left: 20px;
+        margin-left: 4vh;
+        margin-right: 3vh;
     }
     aside h1 {
-        font-size: x-large;
+        font-size: large;
+        margin-top: 3vh;
     }
     #popchart .fa-chart-line {
         margin-top: 30px;
         margin-right: 20px;
     }
     aside #vignettes {
-        display: flex;
-        flex-direction: column;
-        width: 90%;
-        vertical-align: middle;
+        position: absolute;
+        margin-left: -1.5vh;
+        padding-right: 1vh;
     }
-    aside figure {
+    aside figure a {
         display: flex;
-        flex-direction: row;
         background-color: white;
         border-radius: 10px;
-        margin-left: 20px;
-        width: 100%;
-        height: 140px;
+        width: 25vw;
+        height: 8rem;
         box-shadow: 1px 1px 10px #c9c9c9;
         padding: 4px;
+        margin-bottom: 0.5rem;
     }
     aside img {
         width: 40%;
-        height: 100%;
         border-top-left-radius: 10px;
         border-bottom-left-radius: 10px;
         object-fit: cover;
     }
     aside figcaption h3 {
-        font-size: medium;
+        font-size: small;
     }
     aside figcaption p {
-        font-size: small;
+        font-size: x-small;
     }
     aside figcaption .fa-star {
-        margin-top: 20px;
-        font-size: small;
+        font-size: x-small;
     }
     aside figcaption br {
         display: unset;
     }
     aside figcaption {
-        margin-left: 20px;
-    }
-    aside #vignettes figure:nth-child(1) {
-        order: 1;
-    }
-    aside #vignettes figure:nth-child(2) {
-        order: 2;
-    }
-    aside #vignettes figure:nth-child(3) {
-        order: 3;
+        margin: auto;
+        margin-left: 10px;
     }
     /*--------------activites--------------*/
-    #activites {
-        width: 100%;
-    }
     #activites h1 {
-        font-weight: 600;
-        font-size: x-large;
+        font-weight: 800;
+        font-size: medium;
         margin-top: 40px;
-        margin-left: 15px;
+        margin-left: 25px;
     }
     #activites #vignettes {
         display: flex;
         flex-direction: row;
     }
     #activites figure {
-        margin-left: 10px;
         border-radius: 10px;
+        width: 23vw;
+        height: 42vh;
+        margin-left: 25px;
+        margin-right: 2vw;
         box-shadow: 1px 1px 10px #c9c9c9;
     }
     #double figure {
-        width: 100%;
+        width: 23vw;
+        height: 20vh;
+        margin-left: 0;
     }
     #activites #double {
-        width: 91%;
-        display: flex;
-        flex-direction: row;
+        border-radius: 10px;
     }
     #activites figcaption {
         font-weight: 800;
         margin-top: 1em;
-        text-align: center;
+        margin-left: 15px;
     }
     #activites img {
         width: 100%;
-        height: 70%;
+        height: 80%;
         object-fit: cover;
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
     }
-    #double figure {
-        height: 175px;
-        flex-direction: column;
-    }
     #double figure img {
         height: 70%;
-    }
-    #activites #vignettes figure:nth-child(1) {
-        order: 3;
-    }
-    #activites #vignettes #double:nth-child(2) {
-        order: 1;
-    }
-    #activites #vignettes figure:nth-child(3) {
-        order: 4;
-    }
-    #activites #vignettes #double:nth-child(4) {
-        order: 2;
+        border-top-left-radius: 10px;
+        border-top-right-radius: 10px;
     }
     /*--------------footer--------------*/
     footer {
@@ -1202,17 +1168,16 @@ nav a:focus {
     }
     .container_footer {
         display: flex;
-        justify-content: center;
+        justify-content: space-around;
+        margin-bottom: 30px;
     }
     footer figure {
         margin-left: 5px;
     }
     footer figure h2 {
         font-size: x-large;
-        text-align: center;
     }
     footer figure figcaption {
         font-size: medium;
-        text-align: center;
     }
 }
