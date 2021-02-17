@@ -901,7 +901,7 @@ nav a:focus {
     .fa-map-marker-alt {
         margin: auto;
     }
-    .fa-search {
+    .rechercher .fa-search {
         display: none;
     }
     #site-search {
