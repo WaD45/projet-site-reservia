@@ -49,18 +49,6 @@ nav li a {
     text-decoration: none;
 }
 
-nav a:hover {
-    border-top: 4px solid #0065FC;
-    color: #0065FC;
-    padding-top: 30px;
-}
-
-nav a:focus {
-    border-top: 4px solid #0065FC;
-    color: #0065FC;
-    padding-top: 30px;
-}
-
 
 /*--------------media queries smartphones--------------*/
 
