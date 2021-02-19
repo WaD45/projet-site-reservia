@@ -994,7 +994,7 @@ nav li a {
         border-radius: 10px;
         width: 17vw;
         justify-content: center;
-        height: 20vh;
+        height: 10rem;
         box-shadow: 1px 1px 5px #c9c9c9;
         margin-right: 0;
         margin-left: 3vh;
@@ -1062,7 +1062,6 @@ nav li a {
         margin-right: 20px;
     }
     aside #vignettes {
-        position: absolute;
         margin-left: -1.5vh;
         padding-right: 1vh;
     }
@@ -1105,30 +1104,17 @@ nav li a {
         margin-top: 40px;
         margin-left: 25px;
     }
-    #activites #vignettes {
-        display: flex;
-        flex-direction: row;
-    }
     #activites figure {
         border-radius: 10px;
-        width: 23vw;
-        height: 42vh;
-        margin-left: 25px;
-        margin-right: 2vw;
+        width: 20vw;
         box-shadow: 1px 1px 10px #c9c9c9;
-    }
-    #double figure {
-        width: 23vw;
-        height: 20vh;
-        margin-left: 0;
-    }
-    #activites #double {
-        border-radius: 10px;
     }
     #activites figcaption {
         font-weight: 800;
-        margin-top: 1em;
-        margin-left: 15px;
+        font-size: 80%;
+        margin: auto;
+        margin-left: 10px;
+        margin-top: 5px;
     }
     #activites img {
         width: 100%;
@@ -1137,14 +1123,67 @@ nav li a {
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
     }
-    #double figure img {
+    #activites #vignettes {
+        display: grid;
+        grid-template-columns: 25% 25% 25% 25%;
+        grid-template-rows: 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5% 5%;
+        margin-top: 2rem;
+        margin-left: -1rem;
+    }
+    #activites #vignettes figure:nth-child(1) {
+        height: 100%;
+        grid-column: 1 / 2;
+        grid-row: 1 / 12;
+        margin-top: 0;
+    }
+    #activites #vignettes figure:nth-child(1) img {
+        height: 90%;
+    }
+    #activites #vignettes figure:nth-child(2) {
+        height: 100%;
+        grid-column: 2 / 3;
+        grid-row: 1 / 7;
+        margin-top: 0;
+    }
+    #activites #vignettes figure:nth-child(3) {
+        height: 100%;
+        grid-column: 2 / 3;
+        grid-row: 8 / 12;
+        margin-top: 0;
+    }
+    #activites #vignettes figure:nth-child(3) img {
         height: 70%;
-        border-top-left-radius: 10px;
-        border-top-right-radius: 10px;
+    }
+    #activites #vignettes figure:nth-child(4) {
+        height: 100%;
+        grid-column: 3 / 4;
+        grid-row: 1 / 12;
+        margin-top: 0;
+    }
+    #activites #vignettes figure:nth-child(4) img {
+        height: 90%;
+    }
+    #activites #vignettes figure:nth-child(5) {
+        height: 100%;
+        grid-column: 4 / 5;
+        grid-row: 1 / 6;
+        margin-top: 0;
+    }
+    #activites #vignettes figure:nth-child(5) img {
+        height: 75%;
+    }
+    #activites #vignettes figure:nth-child(6) {
+        height: 100%;
+        grid-column: 4 / 5;
+        grid-row: 7 / 12;
+        margin-top: 0;
+    }
+    #activites #vignettes figure:nth-child(6) img {
+        height: 80%;
     }
     /*--------------footer--------------*/
     footer {
-        margin-top: 30px;
+        margin-top: -27vh;
         background-color: #F2F2F2;
     }
     .container_footer {
